@@ -3,6 +3,11 @@
   display: flex;
   flex-direction: column;
   color: white;
+  background-image: url("../public/dark-galaxy-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 .background-canvas {
   position: fixed;
@@ -10,5 +15,10 @@
   height: 100vh;
   background-color: black;
   z-index: -1;
+}
+.content-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 

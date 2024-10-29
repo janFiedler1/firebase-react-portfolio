@@ -26,7 +26,7 @@ function App() {
   const router = createBrowserRouter([
     { 
       path: '/',
-      element: <Main/>,
+      element: <Home/>,
       errorElement: <span>404 Not Found</span>
     },
     { 
@@ -49,11 +49,9 @@ function App() {
     <div className="App">
       <canvas id="myCanvas" className='background-canvas'/>
       <Header navLinks={navLinks} changeContent={changeContent} router={router}/>
-      {/* <Main content={content}/> */}
+      <div className='content-container'>
         <RouterProvider router={router}/>
-          {/* {navLinks.map((link) => (
-            <Route path={link.url} name={link.name}/>
-          ))} */}
+      </div>
       <Footer/>
     </div>
   );

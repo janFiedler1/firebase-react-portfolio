@@ -1,9 +1,10 @@
 .header {
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
+    background-color: rgba(0, 0, 0, 0);
     color: aliceblue;
-    border-bottom: solid;
+    /* border-bottom: solid;
     border-width: 2px;
-    border-color: wheat;
+    border-color: wheat; */
     /* box-shadow: 0 0 5px rgb(97, 97, 97), 0 5px 12px -6px rgb(97, 97, 97), 0 -12px 25px -19px rgb(97, 97, 97); */
     display: flex;
     flex-direction: row;
@@ -28,9 +29,9 @@
 	outline: inherit;
 }
 .nav-container .nav-button:hover {
-    font-weight: 900;
-    color: rgb(192, 192, 192);
-    transition: all 0.2s;
+    font-weight: 600;
+    color: rgb(196, 167, 167);
+    transition: all 0.5s;
 }
 .logo-container {
     display: flex;
