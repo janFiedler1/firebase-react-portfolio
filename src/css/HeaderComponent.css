@@ -18,12 +18,11 @@
 .nav-container .nav-button {
     height: 100%;
     background: none;
-	color: inherit;
+	color: white;
 	border: none;
 	width: 90px;
     border: 2px;
     border-bottom: 2px;
-    border-color: rgb(18, 95, 163);
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
