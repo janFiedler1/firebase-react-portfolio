@@ -4,10 +4,12 @@
   flex-direction: column;
   color: white;
   background-image: url("../public/dark-galaxy-background.jpg");
+  /* background-image: url("../public/profile.jpeg"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  font-family: "Source Sans Pro", sans-serif;;
 }
 .background-canvas {
   position: fixed;
