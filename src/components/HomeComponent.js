@@ -8,7 +8,7 @@ export default function Home() {
         {id:2, name: 'github', url: 'https://github.com/janFiedler1', img: process.env.PUBLIC_URL+"/github2.png"},
         {id:3, name: 'email', url: 'mailto:janfiedler812@gmail.com', img: process.env.PUBLIC_URL+"/gmail2.png"},
     ]
-    const profilePics = ["/profile_square.jpg","/profile2.png","/profile3.jpg","/profile4.jpg",]
+    const profilePics = ["/profile_square.jpg","/profile2.png","/profile3.png","/profile4.png",]
     const [profileImage, setProfileImage] = useState(profilePics[0]);
     const [profileIndex, setProfileIndex] = useState(1);
     const incrementProfileIndex = () => {

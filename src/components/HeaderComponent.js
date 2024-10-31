@@ -1,14 +1,32 @@
-import React from "react";
+import {useState, Fragment} from "react";
 import '../css/HeaderComponent.css'
 import { useParams } from "react-router-dom";
 
 export default function Header({navLinks, changeContent, router}) {
+
+    const [displayNone, setDisplay] = useState("");
+    const display = () => {
+        console.log("click works: "+display == "" ? " display-none" : "");
+        setDisplay(displayNone == "" ? " display-none" : "")
+        return displayNone;
+    }
+
+    const [translation, translate] = useState("");
+    const move = () => {
+        translate(translation == "" ? " translate" : "")
+        return translation;
+    }
+
     return (
-        <React.Fragment>
-            <div className="header">
-                <div className="logo-container">
-                    <span>JF</span>
-                </div>
+        <Fragment>
+            <span onClick={display}>disappear</span>
+            <span onClick={move}>move</span>
+            <div id="header" className={"header"+displayNone+translation}>
+                <a href="/">
+                    <div className="logo-container">
+                        <span>JF</span>
+                    </div>
+                </a>
                 <div className="nav-container" role="navigation">
                     {/* {navLinks.map((link) => ( */}
                     {navLinks.map((link) => (
@@ -23,6 +41,6 @@ export default function Header({navLinks, changeContent, router}) {
                     ))}
                 </div>
             </div>
-        </React.Fragment>
+        </Fragment>
     )
 }
