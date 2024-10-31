@@ -19,6 +19,7 @@
   z-index: -1;
 }
 .content-container {
+  margin-top: 70px;
   width: 100%;
   display: flex;
   flex-direction: column;
