@@ -4,9 +4,9 @@ import '../css/HomeComponent.css'
 export default function Home() {
 
     const socialLinks = [
-        {id:1, name: 'linkedin', url: 'https://www.linkedin.com/in/jfiedleruwo/', img: process.env.PUBLIC_URL+"/linkedin_48.png"},
-        {id:2, name: 'github', url: 'https://github.com/janFiedler1', img: process.env.PUBLIC_URL+"/github_white.png"},
-        {id:3, name: 'email', url: 'mailto:janfiedler812@gmail.com', img: process.env.PUBLIC_URL+"/email_48.png"},
+        {id:1, name: 'linkedin', url: 'https://www.linkedin.com/in/jfiedleruwo/', img: process.env.PUBLIC_URL+"/linkedin2.png"},
+        {id:2, name: 'github', url: 'https://github.com/janFiedler1', img: process.env.PUBLIC_URL+"/github2.png"},
+        {id:3, name: 'email', url: 'mailto:janfiedler812@gmail.com', img: process.env.PUBLIC_URL+"/gmail2.png"},
     ]
     const profilePics = ["/profile_square.jpg","/profile2.png","/profile3.jpg","/profile4.jpg",]
     const [profileImage, setProfileImage] = useState(profilePics[0]);
