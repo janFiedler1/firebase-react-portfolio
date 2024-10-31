@@ -1,7 +1,37 @@
 .solutions-container {
     margin: 15px;
     font-size: x-large;
+    animation-name: appear;
+    animation-duration: 1s;
 }
 .solutions-container p {
     margin-bottom: 10px;
+}
+.solution-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.solution-section .solution-image-container {
+    width: 30%;
+}
+.solution-section .solution-image-container img{
+    max-width: 80%;
+    margin: auto;
+}
+.solution-section .solution-section-wording {
+    padding: 10px;
+    width: 70%;
+    margin-left: 0;
+    margin-right: 0;
+}
+@keyframes appear {
+	0% {
+		opacity: 0;
+	}
+    100% {
+		opacity: 1;
+	}
 }
