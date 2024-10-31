@@ -7,16 +7,18 @@ export default function Header({navLinks, changeContent, router}) {
         <React.Fragment>
             <div className="header">
                 <div className="logo-container">
-                    <span>Jan Fiedler</span>
+                    <span>JF</span>
                 </div>
                 <div className="nav-container" role="navigation">
                     {/* {navLinks.map((link) => ( */}
                     {navLinks.map((link) => (
                         // <button key={link.id} onClick={() => (changeContent(link.component))} className="nav-button">
                         <a href={link.url}>
-                            <button key={link.id} className="nav-button">
-                                {link.name}<span className="caret"/>
-                            </button>
+                            <div className="nav-button-container">
+                                <button key={link.id} className="nav-button">
+                                    {link.name}<span className="caret"/>
+                                </button>
+                            </div>
                         </a>
                     ))}
                 </div>

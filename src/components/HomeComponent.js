@@ -24,7 +24,7 @@ export default function Home() {
                 {/* <div className="home-row-1"> */}
                 <div className="profile-container">
                     <img className='profile-img' src={profileImage} onClick={changeOnProfileClick}/>
-                    <span className="profile-name"><b>Jan</b> Fiedler</span>
+                    <span className="profile-name">Jan Fiedler</span>
                     <span className="profile-location">Hamilton, ON, Canada</span>
                     <div className="social-links">
                         {socialLinks.map((link) => (
