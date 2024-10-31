@@ -81,6 +81,7 @@
   @media screen and (max-width: 800px) {
     .contact-form {
         font-size: x-large;
+        width: auto;
         margin-left: 20px;
         margin-right: 20px;
       }
