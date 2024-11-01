@@ -39,15 +39,27 @@ function App() {
     },
     { 
       path: '/contact',
-      element: <Contact/>
-    },
+      element: <Contact/>,
+    }
   ]);
 
+  const [backgroundOffset, setBackgroundOffset] = useState(0);
 
+  function parallax() {
+    console.log(window.pageYOffset);
+    var y = window.pageYOffset;
+    // var yPos = 0 - window.pageYOffset/5;  
+    setBackgroundOffset(-y/10);
+  }
+
+  window.addEventListener("scroll", function(){
+      parallax(); 
+  });
 
   return (
     <div className="App">
       <canvas id="myCanvas" className='background-canvas'/>
+      <img className="background-pic" style={{top: backgroundOffset}} src={process.env.PUBLIC_URL+'/profile2.png'}/>
       <Header navLinks={navLinks} changeContent={changeContent} router={router}/>
       <div className='content-container'>
         <RouterProvider router={router}/>
