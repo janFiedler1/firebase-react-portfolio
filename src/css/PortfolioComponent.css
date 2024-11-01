@@ -3,12 +3,24 @@
     display: flex;
     flex-direction: column;
 }
-.portfolio-container h2,
-.portfolio-container span, 
-.portfolio-container div{
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.portfolio-container h2 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-size: xx-large;
+}
+.portfolio-description {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .portfolio-container img{
     height: 200px;
@@ -16,9 +28,19 @@
     margin-right: auto;
 }
 .project-container {
+    height: 380px;
+    margin: 15px;
+    border: 2px solid black;
     max-width: 300px;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: black;
+    background-color: rgb(44, 44, 44);
+}
+.project-description {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

@@ -44,11 +44,13 @@ export default function Header({navLinks, changeContent, router}) {
     //     }
     // }
 
+    const [dropdownNav, setDrodownNav] = useState(" invisible");
+    const toggleDropdownNav = () => {
+        setDrodownNav(dropdownNav==" invisible"?" visible":" invisible");
+    }
+
     return (
         <Fragment>
-            {/* <span onClick={display}>disappear</span>
-            <span onClick={move}>move</span> */}
-            {/* <div id="header" className={"header"+displayNone+translation+color}> */}
             <div id="header" className={"header"}>
                 <a href="/">
                     <div className="logo-container">
@@ -56,13 +58,25 @@ export default function Header({navLinks, changeContent, router}) {
                     </div>
                 </a>
                 <div className="nav-container" role="navigation">
-                    {/* {navLinks.map((link) => ( */}
                     {navLinks.map((link) => (
-                        // <button key={link.id} onClick={() => (changeContent(link.component))} className="nav-button">
                         <a href={link.url}>
                             <div className="nav-button-container">
                                 <button key={link.id} className="nav-button">
                                     {link.name}<span className="caret"/>
+                                </button>
+                            </div>
+                        </a>
+                    ))}
+                </div>
+                <div onClick={toggleDropdownNav} className="dropdown-nav-button-hamburger">
+                    <img src={process.env.PUBLIC_URL+"/hamburger-white.png"}/>
+                </div>
+                <div className={"dropdown-nav-container"+dropdownNav}>
+                    {navLinks.map((link) => (
+                        <a href={link.url}>
+                            <div className="dropdown-nav-button-container">
+                                <button key={link.id} className="dropdown-nav-button">
+                                    {link.name}
                                 </button>
                             </div>
                         </a>
