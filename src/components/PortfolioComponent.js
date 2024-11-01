@@ -2,7 +2,7 @@ import React from "react";
 import '../css/PortfolioComponent.css'
 
 const projects = [
-    {id: 1, name: "Natural Instinct", url: 'naturalinstinct.shop', img: process.env.PUBLIC_URL+'/naturalinstinct.shop_.png', description: "Natural instinct is a static e-commerce web page using ReactJS and hosted on Firebase"}
+    {id: 1, name: "Natural Instinct", url: 'https://naturalinstinct.shop', img: process.env.PUBLIC_URL+'/naturalinstinct.shop_.png', description: "Natural instinct is a static e-commerce web page using ReactJS and hosted on Firebase"}
 ]
 
 export default function Portfolio() {
