@@ -27,7 +27,6 @@
     background: none;
 	color: white;
 	border: none;
-	
 	font: inherit;
 	cursor: pointer;
 	/* outline: inherit; */
@@ -75,7 +74,7 @@
 
 @media screen and (max-width: 800px) {
     .nav-container .nav-button:hover {
-        font-size: revert;
-        color: revert;
+        font-size: inherit;
+        color: white;
     }
 }
