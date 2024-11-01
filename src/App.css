@@ -13,7 +13,9 @@
 }
 .background-pic {
   position: fixed;
-  height: 200%;
+  height: 150%;
+  /* width: 300vh; */
+  object-fit: cover;
   top: 400;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -46,5 +48,11 @@ a:visited {
     100% {
 		opacity: 1;
 	}
+}
+
+@media screen and (max-width: 800px) {
+  .background-pic {
+    height: 150%;
+  }
 }
 
