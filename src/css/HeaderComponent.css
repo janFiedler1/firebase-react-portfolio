@@ -72,3 +72,10 @@
 .white {
     background-color: rgba(0, 0, 0, 0.575);
 }
+
+@media screen and (max-width: 800px) {
+    .nav-container .nav-button:hover {
+        font-size: revert;
+        color: revert;
+    }
+}
