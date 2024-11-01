@@ -1,0 +1,24 @@
+.portfolio-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-container h2,
+.portfolio-container span, 
+.portfolio-container div{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.portfolio-container img{
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.project-container {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: black;
+}

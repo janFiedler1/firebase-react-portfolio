@@ -1,5 +1,5 @@
 function parallax() {
-    var s = document.getElementById("floater");
+    var s = document.getElementById("myCanvas");
   var yPos = 0 - window.pageYOffset/5;  
   s.style.top = 50 + yPos + "%"; }
 

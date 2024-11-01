@@ -39,28 +39,30 @@ export default function Home() {
                         ))}
                     </div>
                 </div>
-                <div className="intro-container info-container">
-                    <h2>About Me</h2>
-                    <p>Hey, I'm Jan! Welcome to my webpage.</p>
-                    <p>I'm a passionate and skilled Full-Stack Developer with a bachelor's degree in Computer Science. With over two years of experience in Symfony, I've honed my abilities in building robust and scalable web applications. My expertise extends to React, enabling me to craft dynamic and user-friendly front-end experiences.</p>
-                    <p>em ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra porta odio eu condimentum. Etiam volutpat sodales mollis. Maecenas quis scelerisque risus. Pellentesque id ornare nisi. Sed id magna sit amet metus vehicula maximus ac sollicitudin elit. Mauris commodo pretium pharetra. Sed porta nibh a tempus lacinia. Nam a nunc lacus. Etiam tempus, enim at consequat pretium, tortor nunc feugiat felis, id ultricies erat nulla sed turpis. Vestibulum sollicitudin odio quis erat dapibus vehicula. Fusce at sapien risus. In at ullamcorper magna, sit amet eleifend tellus. Vestibulum finibus mi sed dolor dictum, at placerat arcu aliquam. Nunc venenatis feugiat vehicula. Vestibulum semper elit ac nisi pharetra, nec condimentum magna ultrices. Quisque in eleifend risus. Pellentesque ipsum neque, pulvinar vel nisi sed, dictum bibendum diam. Quisque semper orci id sollicitudin cursus. Phasellus scelerisque sem id libero tempor, volutpat tristique quam ultricies. Vivamus eget magna justo. Praesent eget auctor sapien. Fusce quis rhoncus augue. Fusce ornare eros ac erat consectetur, eu luctus elit tempor. Sed commodo dui et diam vestibulum luctus. Aliqu</p>
-                </div>
-                {/* </div> */}
-                <div className="row">
-                    <div className="skills-container info-container">
-                        <h2>Skills</h2>
-                        <div className="skill-container">
-                            {skills.map((skill) => (
-                                <span>{skill}</span>
-                            ))}
-                        </div>
+                <div className="background-separator"s>
+                    <div className="intro-container info-container">
+                        <h2>About Me</h2>
+                        <p>Hey, I'm Jan! Welcome to my webpage.</p>
+                        <p>I'm a passionate and skilled Full-Stack Developer with a bachelor's degree in Computer Science. With over two years of experience in Symfony, I've honed my abilities in building robust and scalable web applications. My expertise extends to React, enabling me to craft dynamic and user-friendly front-end experiences.</p>
+                        <p>em ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra porta odio eu condimentum. Etiam volutpat sodales mollis. Maecenas quis scelerisque risus. Pellentesque id ornare nisi. Sed id magna sit amet metus vehicula maximus ac sollicitudin elit. Mauris commodo pretium pharetra. Sed porta nibh a tempus lacinia. Nam a nunc lacus. Etiam tempus, enim at consequat pretium, tortor nunc feugiat felis, id ultricies erat nulla sed turpis. Vestibulum sollicitudin odio quis erat dapibus vehicula. Fusce at sapien risus. In at ullamcorper magna, sit amet eleifend tellus. Vestibulum finibus mi sed dolor dictum, at placerat arcu aliquam. Nunc venenatis feugiat vehicula. Vestibulum semper elit ac nisi pharetra, nec condimentum magna ultrices. Quisque in eleifend risus. Pellentesque ipsum neque, pulvinar vel nisi sed, dictum bibendum diam. Quisque semper orci id sollicitudin cursus. Phasellus scelerisque sem id libero tempor, volutpat tristique quam ultricies. Vivamus eget magna justo. Praesent eget auctor sapien. Fusce quis rhoncus augue. Fusce ornare eros ac erat consectetur, eu luctus elit tempor. Sed commodo dui et diam vestibulum luctus. Aliqu</p>
                     </div>
-                    <div className="interests-container info-container">
-                        <h2>Interests</h2>
-                        <div className="skill-container">
-                            {interests.map((skill) => (
-                                <span>{skill}</span>
-                            ))}
+                    {/* </div> */}
+                    <div className="row">
+                        <div className="skills-container info-container">
+                            <h2>Skills</h2>
+                            <div className="skill-container">
+                                {skills.map((skill) => (
+                                    <span>{skill}</span>
+                                ))}
+                            </div>
+                        </div>
+                        <div className="interests-container info-container">
+                            <h2>Interests</h2>
+                            <div className="skill-container">
+                                {interests.map((skill) => (
+                                    <span>{skill}</span>
+                                ))}
+                            </div>
                         </div>
                     </div>
                 </div>
