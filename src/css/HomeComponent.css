@@ -81,18 +81,22 @@
     padding: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     border-radius: 10px;
     margin-bottom: 20px;
 }
-.skills-container {
+/* .skills-container {
     background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
-}
-.skills-container h2 {
+} */
+/* .skills-container h2 {
     margin-left: auto;
     margin-right: auto;
+} */
+.info-container h2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
 }
 .interests-container {
     background-color: rgb(0, 0, 0);
@@ -108,11 +112,15 @@
 
 }
 .skill-container span{
-    margin: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 5px;
+    margin-left: 5px;
     padding: 7px;
     border-radius: 20px;
     background-color: black;
     border: 2px solid rgba(255, 255, 255, 0);
+    font-weight: 700;
 }
 
 @keyframes rainbow_animation {
