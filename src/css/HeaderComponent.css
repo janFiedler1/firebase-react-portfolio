@@ -31,6 +31,7 @@
 	font: inherit;
 	cursor: pointer;
 	/* outline: inherit; */
+    transition: all 0.5s;
 }
 .nav-container .nav-button:hover {
     font-size: 20px;

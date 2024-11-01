@@ -43,13 +43,13 @@ function App() {
     }
   ]);
 
-  const [backgroundOffset, setBackgroundOffset] = useState(0);
+  const [backgroundOffset, setBackgroundOffset] = useState(400);
 
   function parallax() {
     console.log(window.pageYOffset);
     var y = window.pageYOffset;
     // var yPos = 0 - window.pageYOffset/5;  
-    setBackgroundOffset(-y/10);
+    setBackgroundOffset((-y/10)+400);
   }
 
   window.addEventListener("scroll", function(){

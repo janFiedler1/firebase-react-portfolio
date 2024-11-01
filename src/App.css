@@ -9,12 +9,12 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  font-family: "Source Sans Pro", sans-serif;;
+  font-family: "Source Sans Pro", sans-serif;
 }
 .background-pic {
   position: fixed;
   height: 200%;
-  top: 50%;
+  top: 400;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
