@@ -59,7 +59,7 @@ function App() {
   return (
     <div className="App">
       <canvas id="myCanvas" className='background-canvas'/>
-      <img className="background-pic" style={{top: backgroundOffset}} src={process.env.PUBLIC_URL+'/profile2.png'}/>
+      <img className="background-pic" style={{top: backgroundOffset}} src={process.env.PUBLIC_URL+'/dark-galaxy-background.jpg'}/>
       <Header navLinks={navLinks} changeContent={changeContent} router={router}/>
       <div className='content-container'>
         <RouterProvider router={router}/>
