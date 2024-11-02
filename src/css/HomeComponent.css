@@ -36,22 +36,23 @@
     font-size: 30px;
 }
 .social-links {
-    height: 100px;
+    height: 80px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .social-links .social-links-img-container{
     height: 100%;
-    width: 100px;
+    width: 80px;
     display: flex;
 }
 .social-links .social-links-img{
-    height: 60px;
+    height: 40px;
     margin: auto;
     transition: all 0.5s;
 }
 .social-links .social-links-img:hover{
-    height: 65px;
+    height: 55px;
 }
 .info-container {
     padding: 30px;
