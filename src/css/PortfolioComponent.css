@@ -30,12 +30,14 @@
 .project-container {
     height: 380px;
     margin: 15px;
-    border: 2px solid black;
+    background-color: rgb(37, 37, 37);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.02), 0 0 12px 10px rgba(0, 0, 0, 0.1), 0 0px 25px 20px rgba(0, 0, 0, 0.2);
+    /* border: 2px solid rgb(48, 48, 48); */
     max-width: 300px;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: rgb(44, 44, 44);
+    
 }
 .project-description {
     margin-left: auto;

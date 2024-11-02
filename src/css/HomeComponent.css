@@ -53,12 +53,22 @@
 .social-links .social-links-img:hover{
     height: 65px;
 }
+.info-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+}
 .intro-container {
     display: flex;
-    background-color: black;
     width: auto;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 100px;
+    margin-right: 100px;
     font-size: large;
 }
 .intro-container p, .intro-container h2{
@@ -88,17 +98,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.info-container {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: rgba(255, 255, 255, 0);
-    color: rgb(255, 255, 255);
-}
+
 .row .info-container {
     width: 50%;
 }

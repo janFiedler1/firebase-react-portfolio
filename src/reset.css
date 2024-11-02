@@ -52,4 +52,8 @@
     isolation: isolate;
   }
 
+  a {
+    color: inherit;
+  }
+
   
