@@ -23,12 +23,14 @@
     margin-bottom: 10px;
 }
 .portfolio-container img{
-    height: 200px;
+    /* height: 200px; */
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .project-container {
-    height: 380px;
+    height: 450px;
     margin: 15px;
     background-color: rgb(37, 37, 37);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.02), 0 0 12px 10px rgba(0, 0, 0, 0.1), 0 0px 25px 20px rgba(0, 0, 0, 0.2);
@@ -42,7 +44,7 @@
 .project-description {
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     text-align: left;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }

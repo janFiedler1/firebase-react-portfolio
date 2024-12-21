@@ -4,7 +4,7 @@ import '../css/HomeComponent.css'
 export default function Home() {
 
     const skills = ["ReactJS", "NodeJS", "Symfony", "Java", "Python", "C#", "Git", "Jira", "SQL", "DBeaver", "Datadog", "Unity", "AWS", "Linux"];
-    const interests = ["Running", "Hiking", "Chess"];
+    const interests = ["Running", "Hiking", "Chess", "Languages", "Arduino Projects"];
 
     const socialLinks = [
         {id:1, name: 'linkedin', url: 'https://www.linkedin.com/in/jfiedleruwo/', img: process.env.PUBLIC_URL+"/linkedin2.png"},

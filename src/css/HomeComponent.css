@@ -81,16 +81,12 @@
     text-align: justify;
 }
 .home-container .row {
-    /* background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: rainbow_animation 4s ease-in-out infinite;
-    background-size: 400% 100%; */
     background-color: rgba(0, 0, 0, 0);
-    width: 100%;
+    width: auto;
     display: flex;
     flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .background-separator {
     display: flex;
@@ -121,8 +117,8 @@
 
 }
 .skill-container span{
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
     padding: 7px;
@@ -162,7 +158,8 @@
     }
     .home-container .row {
         flex-direction: column;
-        
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }
 
