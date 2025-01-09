@@ -6,18 +6,39 @@ export default function Solutions() {
         {id:1, 
         name:"Frontend Website Design", 
         img: process.env.PUBLIC_URL+"/naturalinstinct.shop_.png", 
-        content: `I specialize in creating static ReactJS web pages. This is simple and cheap solution for a website that only displays data and does not handle user input like logins or blog posts. A common use case includes a restaurant page, that displays the menu and opening hours. Although they are called 'static', these websites can still include animations dynamic links that will make your website look spectacular.
-        `},
+        content: <div>
+        <p>I use ReactJS, a leading JavaScript library, to create dynamic and interactive user interfaces with unparalleled efficiency. When combined with the power and scalability of AWS, you get a winning combination: fast load times, enhanced user experience, and rock-solid reliability.</p>
+        <p>My expertly crafted static web pages leverage the strengths of ReactJS to deliver smooth, engaging experiences for your visitors. Hosted on AWS S3, your website benefits from global reach, high availability, and robust security, ensuring your online presence is always accessible and protected.</p>
+&#10;
+Key Benefits:
+<ul>
+&#9;<li>High Performance: Experience lightning-fast load times thanks to optimized React components and the power of AWS's global infrastructure.</li>
+&#9;<li>Enhanced User Experience: Deliver smooth, interactive, and visually appealing websites that captivate your audience.</li>
+&#9;<li>Robust and Scalable: AWS provides a secure and scalable foundation, ensuring your website can handle traffic surges and grow with your business.</li>
+&#9;<li>Cost-Effective: Enjoy the benefits of a powerful cloud platform without breaking the bank.</li>
+</ul>
+</div>
+        },
         {id:2, 
         name:"Server Hosting", 
         img: process.env.PUBLIC_URL+"/aws.png", 
-        content: `em ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra porta odio eu condimentum. Etiam volutpat sodales mollis. Maecenas quis scelerisque risus. Pellentesque id ornare nisi. Sed id magna sit amet metus vehicula maximus ac sollicitudin elit. Mauris commodo pretium pharetra. Sed porta nibh a tempus lacinia. Nam a nunc lacus. Etiam tempus, enim at consequat pretium, tortor nunc feugiat felis, id ultricies erat nulla sed turpis. Vestibulum sollicitudin odio quis erat dapibus vehicula. Fusce at sapien risus. In at ullamcorper magna, sit amet eleifend tellus. Vestibulum finibus mi sed dolor dictum, at placerat arcu aliquam. Nunc venenatis feugiat vehicula. Vestibulum semper elit ac nisi pharetra, nec condimentum magna ultrices. Quisque in eleifend risus. Pellentesque ipsum neque, pulvinar vel nisi sed, dictum bibendum diam. Quisque semper orci id sollicitudin cursus. Phasellus scelerisque sem id libero tempor, volutpat tristique quam ultricies. Vivamus eget magna justo. Praesent eget auctor sapien. Fusce quis rhoncus augue. Fusce ornare eros ac erat consectetur, eu luctus elit tempor. Sed commodo dui et diam vestibulum luctus. Aliqu  
-        `},
+        content:
+            <div>
+            <p>
+            I use NodeJS and AWS to build scalable and reliable back-end applications. I use EC2 for flexible and cost-effective virtual servers, allowing me to easily scale resources up or down based on demand. AWS Lambda can also be used for scalable applications as a more cost effective solution. For sites requiring a database, I use RDS, which also offers scalability and cost-effectiveness. Finally, the frontend uses the same AWS S3 service, meaning static websites can have backend functioanlity added after launch.
+            </p>
+            </div>
+        },
         {id:3, 
         name:"Desktop Applications, and More...", 
         img: process.env.PUBLIC_URL+"/profile2.png", 
-        content: `em ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra porta odio eu condimentum. Etiam volutpat sodales mollis. Maecenas quis scelerisque risus. Pellentesque id ornare nisi. Sed id magna sit amet metus vehicula maximus ac sollicitudin elit. Mauris commodo pretium pharetra. Sed porta nibh a tempus lacinia. Nam a nunc lacus. Etiam tempus, enim at consequat pretium, tortor nunc feugiat felis, id ultricies erat nulla sed turpis. Vestibulum sollicitudin odio quis erat dapibus vehicula. Fusce at sapien risus. In at ullamcorper magna, sit amet eleifend tellus. Vestibulum finibus mi sed dolor dictum, at placerat arcu aliquam. Nunc venenatis feugiat vehicula. Vestibulum semper elit ac nisi pharetra, nec condimentum magna ultrices. Quisque in eleifend risus. Pellentesque ipsum neque, pulvinar vel nisi sed, dictum bibendum diam. Quisque semper orci id sollicitudin cursus. Phasellus scelerisque sem id libero tempor, volutpat tristique quam ultricies. Vivamus eget magna justo. Praesent eget auctor sapien. Fusce quis rhoncus augue. Fusce ornare eros ac erat consectetur, eu luctus elit tempor. Sed commodo dui et diam vestibulum luctus. Aliqu
-        `}
+        content: 
+        <div>
+        <p>
+        I have a wide array of other skills to create many other software solutions that fit your needs. I can create desktop applications, mobile apps, web apps, and more. I have experience in creating PLC interfaces, game development, and web-app testing.
+        </p>
+        </div>
+        }
     ]
     return(
         <React.Fragment>
@@ -28,29 +49,6 @@ export default function Solutions() {
                         <p><img src={solution.img}/>{solution.content}</p>
                     </div>
                 ))}
-                {/* {solutions.map((solution) => (
-                    <div className="solution-section">
-                        <div className="solution-image-container">
-                            <img src={solution.img}/>
-                        </div>
-                        <div className="solution-section-wording">
-                            <h2>{solution.name}</h2>
-                            <p>{solution.content}</p>
-                        </div>
-                    </div>
-                ))} */}
-                {/* 
-                <div className="solution-section">
-                    <div className="solution-image-container">
-                        <a href="naturalinstinct.shop">
-                            <img src={process.env.PUBLIC_URL+"/naturalinstinct.shop_.png"}/>
-                        </a>
-                    </div>
-                    <div className="solution-section-wording">
-                        <h2>Frontend Website Design</h2>
-                        <p>em ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra porta odio eu condimentum. Etiam volutpat sodales mollis. Maecenas quis scelerisque risus. Pellentesque id ornare nisi. Sed id magna sit amet metus vehicula maximus ac sollicitudin elit. Mauris commodo pretium pharetra. Sed porta nibh a tempus lacinia. Nam a nunc lacus. Etiam tempus, enim at consequat pretium, tortor nunc feugiat felis, id ultricies erat nulla sed turpis. Vestibulum sollicitudin odio quis erat dapibus vehicula. Fusce at sapien risus. In at ullamcorper magna, sit amet eleifend tellus. Vestibulum finibus mi sed dolor dictum, at placerat arcu aliquam. Nunc venenatis feugiat vehicula. Vestibulum semper elit ac nisi pharetra, nec condimentum magna ultrices. Quisque in eleifend risus. Pellentesque ipsum neque, pulvinar vel nisi sed, dictum bibendum diam. Quisque semper orci id sollicitudin cursus. Phasellus scelerisque sem id libero tempor, volutpat tristique quam ultricies. Vivamus eget magna justo. Praesent eget auctor sapien. Fusce quis rhoncus augue. Fusce ornare eros ac erat consectetur, eu luctus elit tempor. Sed commodo dui et diam vestibulum luctus. Aliqu</p>
-                    </div>
-                </div>*/}
             </div>
         </React.Fragment>
     )
