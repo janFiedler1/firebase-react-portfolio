@@ -4,8 +4,8 @@ import '../css/PortfolioComponent.css'
 const projects = [
     {id: 1, name: "Natural Instinct", url: 'https://naturalinstinct.shop', img: process.env.PUBLIC_URL+'/naturalinstinct.shop_.png', description: "Natural instinct is a static e-commerce web page using ReactJS and hosted on Firebase."},
     {id: 2, name: "Chess JS", url: 'https://janfiedler1.github.io/chess-js/', img: process.env.PUBLIC_URL+'/chess.png', description: "Chess JS is a playable chess board written in vanila Javascript. The board and pieces are displayed using simple html and css."},
-    {id: 2, name: "PLC Monitoring Interface", url: 'https://janfiedler1.github.io/python-PLC-interface/', img: process.env.PUBLIC_URL+'/controlx-gui.png', description: "A PyQt5 based interface that connects to a Beckhoff or Allen-Bradley PLC and a Mariadb database, and displays real time or historical data, as well as saving data to the database. The graphs and data capture rate are customizable."},
-    {id: 2, name: "Database CSV Exporter Tool", url: 'https://janfiedler1.github.io/controlx-csv-exporter/', img: process.env.PUBLIC_URL+'/controlx-exporter.png', description: "A simple stand-alone tool that connects to a database and exports data as a CSV. Made to handle large data exports"},
+    {id: 2, name: "PLC Monitoring Interface", url: 'https://github.com/janFiedler1/python-PLC-interface/', img: process.env.PUBLIC_URL+'/controlx-gui.png', description: "A PyQt5 based interface that connects to a Beckhoff or Allen-Bradley PLC and a Mariadb database, and displays real time or historical data, as well as saving data to the database. The graphs and data capture rate are customizable."},
+    {id: 2, name: "Database CSV Exporter Tool", url: 'https://github.com/janFiedler1/controlx-csv-exporter/', img: process.env.PUBLIC_URL+'/controlx-exporter.png', description: "A simple stand-alone tool that connects to a database and exports data as a CSV. Made to handle large data exports"},
 ]
 
 export default function Portfolio() {
